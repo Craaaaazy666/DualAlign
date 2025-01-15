@@ -1,0 +1,37 @@
+data_paths:
+  train_rgb_data: "/your/path/to/rgb"
+  train_flow_data: "/your/path/to/flow"
+  train_skeleton_data: "/your/path/to/skeleton"
+  train_text_data: "/your/path/to/text"
+
+split_root_path: './split'
+split_path: '/your/path/to/split'
+train_split_path: '/your/path/to/split/train'
+test_split_path: '/your/path/to/split/test'
+
+feat_label_path: "./label.csv"
+feat_clip_path: "/your/path/to/clip"
+feat_root_path: "/your/path/to/feat"
+label_path: "/your/path/to/label"
+
+I3D_pretrained_num_classes: 400
+
+num_classes: 5
+num_nodes: 26
+in_features: 3
+hidden_features: 128
+out_features: 1024
+in_dim: 1024
+hidden_dim: 256
+n_head: 4
+n_query: 4
+no_etf: False
+batch_size: 1
+
+lossType: "Normal"
+
+learning_rate: 0.0001
+lr_decay: 0.5
+dropout: 0.5
+epochs: 150
+length: 103
